@@ -16,7 +16,11 @@ class Solution {
     }
 }
 
- why we should only compare the first and last element after sorting the array?would you mind explain it 😭....
+Example 1:
+Input: strs = ["flower","flow","flight"]
+Output: "fl
+
+why we should only compare the first and last element after sorting the array?would you mind explain it 😭....
 
 If we have array like: [Flower, flow, flight, good]
 This array is sorted, now you can easily tell that there is no common prefix among all the elements by just comparing first and last coz 1st and last will have the most difference between them, say you have:

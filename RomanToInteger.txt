@@ -14,7 +14,7 @@ class Solution {
 
         for(int i = 0; i < s.length(); i++){
             if(i < s.length() - 1 && m.get(s.chatAt(i)) < m.gets(s.charAt(i - 1))){
-                and -= m.get(s.chatAt(i));
+                ans -= m.get(s.chatAt(i));
             } else {
                 ans += m.get(s.chatAt(i));
             }

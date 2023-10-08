@@ -12,7 +12,7 @@ class Solution {
                 break;
             }
         }
-        return strs.substring(0, index)
+        return firstEle.substring(0, index)
     }
 }
 

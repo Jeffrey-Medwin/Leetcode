@@ -2,7 +2,7 @@ class Solution {
     public String longetPrefix(String[] strs) {
         Arrays.sort(strs);
         String firstEle = strs[0];
-        String secondELe = strs[strs - 1];
+        String secondELe = strs[strs.length - 1];
         int index = 0;
 
         while(index < firstEle.length() && index < secondELe.length()) {

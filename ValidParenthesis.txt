@@ -17,3 +17,7 @@ class Solution{
         return stack.isEmpty();
     }
 }
+
+Example 1:
+Input: s = "()"
+Output: true

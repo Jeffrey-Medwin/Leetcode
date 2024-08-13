@@ -20,6 +20,8 @@ if: 9 > 8
 while: 3 <= 2
 return (end) 2
 
+
+mid = start + (end - start) / 2
 case 1: mid * mid > x (get the first half)
     end = mid - 1
 case 2: mid * mid == x 
